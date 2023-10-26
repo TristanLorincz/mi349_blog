@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -22,28 +21,26 @@
 <p>Tristan Lorincz</p>
 <p>lorinczt@msu.edu</p>
 <form>
-    <h1 class="form">Contact Me</h1>
-    
-      Contact Form:
-      <input type="text">
-    
-   <label for="Name">Name
-    <input type="text">
-</label>
-</label>
-<label for="Email">Email
- <input type="text">
-</label>
-<label for="inquiries">Reason for inquiring:</label>
-<select id="inquireies" name="inquiries">
-  <option value="Interview">Interview</option>
-  <option value="Set up a meeting">Set up a meeting</option>
-  <option value="Want more info about patios">More info</option>
-  <option value="Other">Other</option>
-</select>   
+  <h2>Contact Me</h2>
 
-<textarea name="Comments" id="form comments" cols="1" rows="1">Text area for comments</textarea>
-  <button>Submit</button>
+  <label for="Name">Name:</label>
+  <input type="text" id="Name" name="Name" 
+
+  <label for="Email">Email:</label>
+  <input type="email" id="Email" name="Email" 
+
+  <label for="inquiries">Reason for inquiring:</label>
+  <select id="inquiries" name="inquiries">
+      <option value="Interview">Interview</option>
+      <option value="Meeting">Set up a meeting</option>
+      <option value="Info">Want more info about patios</option>
+      <option value="Other">Other</option>
+  </select><br><br>
+
+  <label for="comments">Comments:</label>
+  <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Textarea for comments"></textarea><br><br>
+
+  <button type="submit">Submit</button>
 </form>
 
 
