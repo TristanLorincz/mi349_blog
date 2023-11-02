@@ -11,7 +11,9 @@ margin: 40px;
 border-top: 10px solid #FF4032;
 }
 
-
+section{
+  display: flex;
+}
 
 h1{
 font-size: 1.2m;
@@ -34,7 +36,6 @@ article{
 }
 #blog{
 border-top: 5px solid black;
-display: flex;
 }
 
 .blog-post{
