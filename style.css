@@ -10,6 +10,9 @@ padding: 40px;
 margin: 40px;
 border-top: 10px solid #FF4032;
 }
+
+
+
 h1{
 font-size: 1.2m;
 margin: 0;
@@ -20,12 +23,33 @@ h2{
 
 p{
   line-height: 1.5em;  
-}
 
+}
+article{
+  line-height: 1.5em;  
+  padding: 20px;
+  margin: 20px;
+  background-color: #fe584c ;
+  border-radius: 20px;
+}
 #blog{
-border-top: 1px #FF4032;
+border-top: 5px solid black;
+display: flex;
 }
 
 .blog-post{
-border-bottom: 1px #FF4032;
+border-bottom: 5px solid black;
+}
+
+.sticky{
+  background-color:black;
+  position: sticky;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+}
+.IMG{
+  float: left;
+  margin: 20px;
+  
 }
